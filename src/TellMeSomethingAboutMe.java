@@ -14,6 +14,7 @@ public class TellMeSomethingAboutMe {
         boolean status = scan.nextBoolean();
         System.out.println("How tall are you?");
         double height = scan.nextDouble();
+        System.out.printf("name: %s %s age: %d status: %b height: %f",forname, surname, age, status, height);
 
     }
 }
